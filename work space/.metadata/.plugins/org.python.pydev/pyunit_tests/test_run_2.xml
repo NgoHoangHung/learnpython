@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pydev-testrun version="1.0"?><pydev-testsuite>
+    <summary errors="1" failures="0" finished="true" name="Test Run: 2" tests="0" total_time="Finished in: 0.00 secs."/>
+    <test location="/home/hungnh/Documents/work/work space/viin.python.first/src/FirstModule.py" status="error" test="FirstModule" time="0">
+        <stdout/>
+        <stderr><![CDATA[Traceback (most recent call last):
+  File "/home/hungnh/.p2/pool/plugins/org.python.pydev.core_10.1.3.202301231743/pysrc/_pydev_runfiles/pydev_runfiles.py", line 460, in __get_module_from_str
+    mod = __import__(modname)
+  File "/home/hungnh/Documents/work/work space/viin.python.first/src/FirstModule.py", line 2, in <module>
+    a = int(input())
+ValueError: invalid literal for int() with base 10: 'f'
+ERROR: Module: FirstModule could not be imported (file: /home/hungnh/Documents/work/work space/viin.python.first/src/FirstModule.py).
+]]></stderr>
+    </test>
+    <launch mode="debug">
+        <launch_memento><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration local="true" path="viin.python.first FirstModule.py (1) [pyunit run]"/>
+]]></launch_memento>
+    </launch>
+</pydev-testsuite>

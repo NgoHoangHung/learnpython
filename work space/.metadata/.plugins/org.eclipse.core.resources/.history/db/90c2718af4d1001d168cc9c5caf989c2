@@ -1,0 +1,8 @@
+'''
+Created on Apr 3, 2023
+
+@author: hungnh
+'''
+a  = 10
+while a<10:
+    print("Hello")
