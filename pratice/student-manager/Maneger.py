@@ -1,7 +1,7 @@
 from Student import Student
 import Controller
 
-students = []
+
 flag = True
 
 while flag:
@@ -15,7 +15,6 @@ while flag:
                 |                [3] Thông tin sinh viên               |
                 |                [4] Xóa sinh viên                     |
                 |                [5] Thoát                             |
-                |[Nhập vào lựa chọn:]                                  |
                  ======================================================
         ''')
     select = int(input("Mời chọn chức năng: "))
